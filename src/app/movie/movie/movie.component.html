@@ -1,0 +1,9 @@
+<app-search></app-search>
+
+<div class="container-fluid">
+        <div class="row mb-4">
+          <div class="col-lg-3 col-md-6 col-sm-2  my-2" *ngFor="let movie of filterMovieList">
+              <app-movie-info [movie]="movie" (addedToFavourite)="addedToFavourite($event)"></app-movie-info>
+          </div>
+        </div>
+      </div>

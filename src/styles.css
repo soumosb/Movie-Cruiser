@@ -1,1 +1,80 @@
-/* You can add global styles to this file, and also import other style files */
+.wall {
+    background-image: url("https://t4.ftcdn.net/jpg/01/84/46/51/500_F_184465122_U6wMWZCVQ4PjZIJIDNKqs8zhUxZSGVAb.jpg");
+    height: 300px;
+    border-radius: 0px;
+  }
+  .foot-bg {
+    background-color: #ff4500;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+  }
+  
+  .bg-orange {
+    background-color: #ff4500;
+  }
+  
+  .navbg {
+    background-color: #ff4500;
+  }
+  
+  .material-icons {
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+    vertical-align: middle;
+  }
+  
+  .search {
+    color: #3e4d3f;
+  }
+  .boxoffice {
+    float: right;
+    color: #ff2222;
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .badge-info {
+    float: right;
+  }
+  
+  .right {
+    float: right;
+  }
+  .rightbtn {
+    float: right;
+    background-color: #ff4500;
+    border-width: 0px;
+    font-size: 12px;
+  }
+  
+  #genre {
+    font-size: 12px;
+    display: block;
+  }
+  
+  .text {
+    color: #5d5e5f;
+    font-size: 14px;
+  }
+  
+  .grey {
+    color: #4e5d6f;
+  }
+  
+  .w-18 {
+    width: 18rem;
+  }
+  
+  .savebtn {
+    padding: 5px 20px;
+  }
+  
+  .editbtn {
+    padding: 5px 20px;
+  }
+
+  

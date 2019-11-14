@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-md navbar-dark navbg">
+        <a class="navbar-brand" href="#">
+          <i class="material-icons matwhite">local_movies</i>
+        </a>
+        <a class="navbar-brand" href="#">Movie Cruiser</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto text-light">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="movie">Movies</a>
+            </li>
+            <li class="nav-item" *ngIf="!isAuthenticated()">
+              <a routerLink="login" class="nav-link">LogIn</a>
+            </li>
+            <li class="nav-item" *ngIf="!isAuthenticated()">
+              <a routerLink="signup" class="nav-link">Sign Up</a>
+            </li>
+            <li class="nav-item" *ngIf="isAuthenticated()">
+              <a class="nav-link"><i class="material-icons">person</i>{{getUser().lastName}}, {{getUser().firstName}}</a>
+            </li>
+            <li class="nav-item" *ngIf="isAuthenticated() && !isAdmin()">
+                <a routerLink="favourites" class="nav-link">Favourites</a>
+              </li>
+            <li class="nav-item" *ngIf="isAuthenticated()">
+              <a routerLink="login" class="nav-link" (click)="onSignOut()">LogOut</a>
+            </li>
+          </ul>
+        </div>
+      </nav>

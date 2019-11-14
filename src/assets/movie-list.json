@@ -1,0 +1,52 @@
+[
+    {
+        "movieId": 1,
+        "name": "Avengers",
+        "active": true,
+        "boxOffice": 520146398,
+        "genre": "Superhero",
+        "hasTeaser": true,
+        "date": "12/02/2017",
+        "imagePath": "https://images.unsplash.com/photo-1561149877-84d268ba65b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
+    },
+    {
+        "movieId": 2,
+        "name": "Godfather II",
+        "active": true,
+        "boxOffice": 520146398,
+        "genre": "Drama",
+        "hasTeaser": true,
+        "date": "12/02/2017",
+        "imagePath": "https://images-na.ssl-images-amazon.com/images/I/41V2AB34KCL._SY445_.jpg"
+    },
+    {
+        "movieId": 3,
+        "name": "Limitless",
+        "active": true,
+        "boxOffice": 520146398,
+        "genre": "Science Fiction",
+        "hasTeaser": true,
+        "date": "12/02/2017",
+        "imagePath": "https://images-na.ssl-images-amazon.com/images/I/81WaeHtrN1L._SY445_.jpg"
+    },
+    {
+        "movieId": 4,
+        "name": "Gravity",
+        "active": true,
+        "boxOffice": 520146398,
+        "genre": "Science Fiction",
+        "hasTeaser": true,
+        "date": "12/02/2017",
+        "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSbL4-dqel0twNLUQGau8Q5P-Q83TRIk9Ktl90B3dMWynaaZdN"
+    },
+    {
+        "movieId": 5,
+        "name": "Interstellar",
+        "active": true,
+        "boxOffice": 520146398,
+        "genre": "Science Fiction",
+        "hasTeaser": true,
+        "date": "12/02/2017",
+        "imagePath": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+    }
+]

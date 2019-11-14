@@ -1,0 +1,26 @@
+[
+  {
+    "userId": 1,
+    "userName": "admin",
+    "password": "123456",
+    "firstName": "Admin",
+    "lastName": "Master",
+    "role": "Admin"
+  },
+  {
+    "userId": 2,
+    "userName": "john",
+    "password": "123456",
+    "firstName": "John",
+    "lastName": "Deo",
+    "role": "Customer"
+  },
+  {
+    "userId": 3,
+    "userName": "arijit04",
+    "password": "123456",
+    "firstName": "Arijit",
+    "lastName": "Dhar",
+    "role": "Customer"
+  }
+]

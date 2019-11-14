@@ -1,0 +1,17 @@
+<div class="jumbotron wall">
+        <h3 class="text-light my-3">Find Movie</h3>
+        <div class="input-group my-1">
+          <div class="input-group-prepend">
+            <span class="input-group-text dark lighten-1" id="basic-text1">
+              <i class="material-icons search">movie</i>
+            </span>
+          </div>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search"
+            arial-label="Search"
+            (input)="onSearchText($event)"
+          />
+        </div>
+      </div>

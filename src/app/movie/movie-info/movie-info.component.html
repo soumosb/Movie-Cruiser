@@ -1,0 +1,48 @@
+<div class="container">
+        <div class="card" style="width:300px">
+          <img
+            class="card-img-top"
+            src="{{movie.imagePath}}"
+            alt="avengers"
+            height="300px"
+          />
+          <div class="card-body">
+            <span class="card-title">{{movie.name}}</span>
+            <span class="boxoffice ml-4">&#x24;{{movie.boxOffice}}</span>
+            <span class="badge badge-success" *ngIf="isAdmin()">Active</span>
+            <span id="genre">{{movie.genre}}</span>
+
+            <a href="https://www.youtube.com/watch?v=ooXy_WhMvaM"
+              ><span class="badge badge-info">has Teaser</span></a
+            >
+            <br />
+            <div class="alert alert-success" *ngIf="favouriteAdded">
+              Movie added to favourites successfully!
+            </div>
+            <div class="row">
+              <div class="col-5 text">
+                <div *ngIf="isAdmin()">
+                <i class="material-icons text">schedule</i> Launch
+                <br />
+                <span>12/02/2017</span>
+                </div>
+              </div>
+              <div class="col-7 mt-3" >
+                <a *ngIf="isAdmin()"
+                [routerLink]="['/movieEdit',movie.movieId]"
+                  class="btn btn-primary btn-sm rightbtn editbtn"
+                  ><i class="material-icons matwhite pr-2">edit</i>Edit</a
+                >
+                <a *ngIf="!isAdmin()"
+                href="javascript:void(0)"
+                (click)="onFavourite(movie.movieId)"
+                class="btn btn-primary btn-sm rightbtn"
+                ><i class="material-icons" style="vertical-align:middle"
+                  >favorite</i
+                >Add to favourites</a
+              >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
